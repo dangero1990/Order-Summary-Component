@@ -1,0 +1,119 @@
+.attribution { 
+    font-size: 11px; 
+    text-align: center; 
+  }
+
+  .attribution a {
+     color: hsl(228, 45%, 44%); 
+    }
+ 
+  main {
+    width: 350px !important;
+    flex-wrap: wrap;
+    border-radius: 15px;
+    background-color: white;
+    overflow: hidden;
+  }
+
+img {
+    width: 120%;
+    object-fit: fill;
+    margin-left: -40px;
+}
+
+body {
+    background-image: url(./images/pattern-background-desktop.svg);
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-color: hsl(225, 100%, 94%);
+    font-family: "Red Hat Display" !important;
+    background-size: contain;
+}    
+
+.body-container {
+  display: flex;
+  align-content: center;
+  justify-content: center;
+  flex-wrap: wrap;
+  flex-direction: column;
+  height: 100vh;
+}
+
+.payment {
+  display: flex;
+  flex: 1;
+  flex-direction: column;
+  background-color: hsl(225, 100%, 98%);
+  border-radius: 15px;
+}
+
+#order {
+  height: 50px;
+  text-align: center;
+  justify-content: center;
+  align-items: center;
+  display: flex;
+  margin-top: 25px;
+}
+
+h3 {
+  font-weight: 900;
+}
+
+#plan {
+  font-weight: 700;
+  margin-bottom: 3px;
+  margin-top: .75em;
+}
+
+#cost {
+  font-weight: 400;
+}
+
+.plan {
+  text-align: left;
+  font-weight: 500;
+}
+
+#change {
+  text-align: right;
+  margin-top: .75em;
+}
+
+button {
+  width: 100%;
+  border-radius: 10px;
+  background-color: hsl(245,76%,52%);
+  color: white;
+  height: 40px;
+  margin-top: 15px;
+  border-style: none;
+}
+
+button p {
+  margin: 0 auto;
+}
+
+.cancel a {
+  color: hsl(232,15%,70%);
+  text-decoration: none !important;
+}
+
+.cancel p {
+  font-weight: 500;
+}
+
+.cancel {
+  margin-top: 15px;
+}
+
+@media (max-width: 400px) {
+  body {
+    background-image: url(./images/pattern-background-mobile.svg);
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-color: hsl(225, 100%, 94%);
+    font-family: "Red Hat Display" !important;
+    background-size: contain;
+}    
+}
